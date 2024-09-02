@@ -1,25 +1,38 @@
-# Lab2-
-Pyton code 
-Write a Python program that will determine food costs for the KSU CCSE hackathon.
-The hackathon will have pizza and salad option. The program should ask the number of
-people who ordered pizza and the number of people who ordered a salad. Each person
-who orders pizza is allocated three (3) slices of pizza. Each salad costs $7.99 per
-person. Each pizza costs $15.99 and has 12 slices per pizza. Only whole pizzas can be
-ordered.
-If more than ten (10) pizzas are ordered, then there will be a 15% discount to the pizza
-cost. If more than 10 salads are ordered there will be a 15% discount to the salad cost.
-The delivery charge is 7% of the entire order prior to discounts or $20 minimum.
-Display the number of each meals ordered (input is not considered as a display/output).
-Determine and display the number of pizzas needed. Display the cost of the pizza’s
-and display the cost of salads (before any discounts). Display the discount amount and
-delivery charge. Finally display the total amount due. You do not need to round or
-truncate your output.
+# lab 2
+# KSU CCSE Hackathon Food Cost Calculator
 
-Example of input
-Number of pizza orders 43
-Number of salad orders 7
-Example of output
-Pizza cost $175.89000000000001
-Salad cost $55.93
-Total $231.82000000000002
-Discount $26.3835
+## Description
+
+This Python program calculates the food costs for the KSU CCSE hackathon. The hackathon provides two meal options: pizza and salad. The program asks for the number of people who ordered each option and calculates the total cost, including any applicable discounts and delivery fees.
+
+## Features
+
+- **Pizza Orders**: Each person who orders pizza is allocated three (3) slices. Each pizza costs $15.99 and has 12 slices. The program calculates the total number of pizzas needed.
+- **Salad Orders**: Each salad costs $7.99 per person.
+- **Discounts**: 
+  - A 15% discount is applied to the pizza cost if more than 10 pizzas are ordered.
+  - A 15% discount is applied to the salad cost if more than 10 salads are ordered.
+- **Delivery Fee**: The delivery fee is calculated as 7% of the total order cost before discounts, with a minimum delivery fee of $20.
+
+## Input
+
+The program prompts the user to input:
+1. The number of people who ordered pizza.
+2. The number of people who ordered salad.
+
+## Output
+
+The program calculates and displays:
+- The total number of pizzas needed.
+- The cost of the pizzas (before discounts).
+- The cost of the salads (before discounts).
+- The total discount amount.
+- The delivery fee.
+- The total amount due.
+
+### Example
+
+**Input:**
+```plaintext
+Number of pizza orders: 43
+Number of salad orders: 7
